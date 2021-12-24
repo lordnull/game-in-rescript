@@ -1,0 +1,27 @@
+{
+  "name": "game-in-rescript",
+  "version": "1.0.0",
+  "description": "just playin",
+  "main": "index.js",
+  "scripts": {
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordnull/game-in-rescript.git"
+  },
+  "author": "Lord Null <micahw@lordnull.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordnull/game-in-rescript/issues"
+  },
+  "homepage": "https://github.com/lordnull/game-in-rescript#readme",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3"
+  }
+}
